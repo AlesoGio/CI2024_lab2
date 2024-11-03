@@ -1,1 +1,3 @@
 # CI2024_lab2
+To solve the travelling salesman problem, other than the simple greedy algorithm, I used a farthest insertion algorithm, that iteratively inserts the farthest unvisited city into the tour to minimize the added distance. It seems to generally find a better path than the simple one. 
+After that I used a two evolutionary algorithm, one generational, that replaces the entire population each geenration, and another steady-state, which only substitutes only a small percentage of the population. The generational one was really slow and uneffective compared to the steady-state, which managed to find a better solution much faster. Both algorithm did not manage to outperform the greedy approach. 
